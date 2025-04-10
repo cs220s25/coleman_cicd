@@ -14,5 +14,5 @@ jobs:
           user: ec2-user
           key: ${{ secrets.LABSUSERPEM }}
           script: |
-            cd /<REPO_NAME>
+            cd /coleman_cicd
             ./redeploy.sh
